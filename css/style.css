@@ -219,7 +219,7 @@ body._lock {
 .header {
   position: relative;
   min-height: 100vh;
-  background: url("../img/header-bg.png") 0 0/auto 93% no-repeat;
+  background: url("../img/header-bg.png") 0 0/auto 90% no-repeat;
 }
 
 .header._scroll .header__top {
@@ -305,13 +305,16 @@ body._lock {
 
 .header__bottom {
   padding: 150px 20px 0;
+  background: url("../img/point-area.png") center top 225px no-repeat;
+}
+
+.header__bottom ._container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: url("../img/point-area.png") center top 225px no-repeat;
 }
 
 .header__content {
@@ -880,7 +883,7 @@ body._lock {
   }
 
   .header__bottom {
-    padding: 110px 20px 0;
+    padding: 80px 20px 0;
   }
 
   .header__content {
