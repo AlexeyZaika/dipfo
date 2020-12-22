@@ -1278,8 +1278,13 @@ body._lock {
     height: 40px;
   }
 
+  .decision {
+    background-size: 100% auto;
+  }
+
   .decision__title {
     margin-bottom: 30px;
+    margin-top: 100%;
   }
 
   .decision__title:after {
@@ -1408,7 +1413,11 @@ body._lock {
   }
 
   .decision {
-    background-size: auto 80%;
+    background-image: url("../img/decision-bg-mob.png");
+  }
+
+  .decision__title {
+    margin-top: 100%;
   }
 
   .decision__list {
